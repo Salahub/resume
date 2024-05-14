@@ -29,7 +29,7 @@
 
 % command for inline images
 \newcommand*{\img}[1]{%
-	\raisebox{0\baselineskip}{%
+	\raisebox{-0.05cm}{%
 		\includegraphics[
 		height=11pt,
 		width=11pt,
@@ -62,14 +62,14 @@
 \newcommand{\ressubitem}[2]{\begin{tabular*}{19cm}{l@{\extracolsep{\fill}}r} \textit{#1} & \textit{#2} \\ \end{tabular*} \vspace{-6pt}}
 
 % change font styles
-\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\familydefault}{\sfdefault}
 % make descriptions less bold
 \renewcommand{\descriptionlabel}[1]{\hspace{\labelsep} {\normalfont #1}}
 
 \begin{document}
 	\setlength{\tabcolsep}{0in}
 	\setlength{\baselineskip}{2pt}
-	\setlength{\lineskip}{2pt}
+	\setlength{\lineskip}{4pt}
 	\setlength{\parskip}{2pt}
 	\setlength{\topskip}{2pt}
 
@@ -77,45 +77,43 @@
 	{\fontsize{35pt}{0pt} \selectfont Chris Salahub} \\
 	\vspace{0.3cm}
 	
-	\href{mailto:chris.salahub@uwaterloo.ca}{\img{emailIcon} chris.salahub@uwaterloo.ca} \hspace{0.1cm} {\Large l} \hspace{0.1cm} 
-	\href{https://www.linkedin.com/in/chris-salahub/}{\img{linkedinIcon} chris-salahub}  \hspace{0.1cm} {\Large l} \hspace{0.1cm}
-	\href{https://github.com/Salahub}{\img{githubIcon} Salahub}  \hspace{0.1cm} {\Large l} \hspace{0.1cm}
+	\href{mailto:chris.salahub@uwaterloo.ca}{\img{emailIcon} chris.salahub@uwaterloo.ca} \hspace{0.1cm} $\vert$ \hspace{0.1cm} 
+	\href{https://www.linkedin.com/in/chris-salahub/}{\img{linkedinIcon} chris-salahub}  \hspace{0.1cm} $\vert$ \hspace{0.1cm}
+	\href{https://github.com/Salahub}{\img{githubIcon} Salahub}  \hspace{0.1cm} $\vert$ \hspace{0.1cm}
 	\href{https://medium.com/@Salahub}{\img{mediumIcon2} @Salahub} 
+
 \end{center}
 
 %A PhD candidate in statistics with experience designing, implementing, and optimizing custom algorithms for exploratory and inferential data analysis using %state of the art
 %machine learning techniques in multiple programming languages, including R and Python. Exceptional communication and teamwork skills, as demonstrated by success in collaborative projects ranging from medical to demographic applications of computational statistics. %Seeking a career applying these skills to challenging technical problems.
 
-% BE BOLD: FLEX THE VALUE OF SCHOLARSHIPS AND BE EXPLICIT ABOUT HOW COMPETITIVE THEY ARE
+\vspace{0.15cm}
 
-\vspace{0cm}
 
-\noindent {\Large \textbf{Summary}} \hrulefill
-\begin{compactDesc}
-	\item[Technical Skills:] {\footnotesize Simulation, Data Visualization, Dimension Reduction, Regression, Prediction, Inference, Text Mining }
-	\item[Programming Languages:] {\footnotesize R, Python, SQL, Bash, MATLAB, C++}
-	\item[Domain Knowledge:] {\footnotesize Genomics, Structured Biosequence Data, Meta-Analysis, Survival Analysis, Classification and Regression Trees, Measuring Association, Data Science, Exploratory Data Analysis, Experimental Design, Machine Learning} %, Genetics, Meta-Analysis, Machine Learning, Data Science, Experimental Design, Mathematics Education}
+%\noindent {\Large \textit{Summary}} \hrulefill
+%\begin{compactDesc}
+%	\item[Technical Skills:] {\footnotesize Simulation, Data Visualization, Dimension Reduction, Regression, Prediction, Inference, Text Mining }
+%	\item[Languages:] {\footnotesize R, Python, SQL, Bash, MATLAB, C++}
+%	\item[Domain Knowledge:] {\footnotesize Classification and Regression Trees, Measuring Association, Data Reduction, Exploratory Data Analysis, Genetics, Meta-Analysis, Machine Learning, Data Science, Experimental Design, Mathematics Education}
 	%{\footnotesize Regression (Logistic, GAM, Mixed Models), PCA, Factor Analysis, LDA, SVM, Simulated Annealing, MCMC, Boosting, Random Forests, SARIMA, GARCH, Graphical Models, Dimension Reduction, Model Regularization, Visualization, Experimental Design, Sampling Theory, Statistical Process Analysis, KNN, EM Algorithm, Text Processing} \vspace{-3pt}
 	%\item[Interpersonal Skills:] {\footnotesize Public Speaking, Teaching, Writing}
-\end{compactDesc}
-\vspace{-4pt}
+%\end{compactDesc}
 
 
-\vspace{0.2cm}
-\noindent {\Large \textbf{Education}} \hrulefill
+\noindent {\Large \textit{Education}} \hrulefill
 \vspace{0.2cm}
 
 \noindent {\large \textbf{Ph.D. in Statistics}, University of Waterloo} \hfill Waterloo, ON, Canada
 \vspace{-4pt}
 {\footnotesize \begin{compactDesc}
-		\item[Scholarship:] \href{https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSD-BESCD_eng.asp}{Alexander Graham Bell Doctoral Scholarship} (\$105,000 over 36 months) \hfill {\normalsize {May 2019 -- Present}}
+		\item[Scholarship:] \href{https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSD-BESCD_eng.asp}{Alexander Graham Bell Doctoral Scholarship} (\$105,000 over 36 months) \hfill {\normalsize {May 2019 -- Dec. 2023}}
 		\item[{\normalfont Thesis:}]
-		\textit{Explorations in Pairwise Measures of Association and Pooled Significance} 
+		\textit{Explorations in Pairwise Measures of Dependence and Pooled Significance}
 		\item[{\normalfont Supervisor:}] Dr. Wayne Oldford
 \end{compactDesc}}
 \vspace{0.1cm}
 
-\noindent {\large \textbf{M.Sc. in Statistics}, ETH Z\"urich} \hfill Z\"urich, Switzerland
+\noindent {\large \textbf{M.Sc. in Statistics} (Computer Vision Specialization), ETH Z\"urich} \hfill Z\"urich, Switzerland
 \vspace{-4pt}
 {\footnotesize \begin{compactDesc}
 		\item[Scholarship:] \href{https://www.ethz-foundation.ch/en/esop/}{ESOP Scholar} (\$48,000 for being in the top 2-3\% of incoming ETH Masters Students)  \hfill {\normalsize {Sept. 2017 -- Mar. 2019}}
@@ -159,7 +157,7 @@
 %\par} \vspace{-4pt}
 \vspace{0.1cm}
 
-\noindent {\large \textbf{B.Math. in Statistics (Dean's Honours List)}, University of Waterloo} \hfill {Waterloo, ON, Canada}
+\noindent {\large \textbf{B.Math. in Statistics}, University of Waterloo \href{https://uwaterloo.ca/math/deans-honours-list}{(Dean's Honours List)}} \hfill {Waterloo, ON, Canada}
 \vspace{-4pt} 
 {\footnotesize \begin{compactDesc}
 	\item[{\normalfont Thesis:}] \href{https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01148.x}{\textit{About ``her emails''}} \hfill {\normalsize Sept. 2013 -- June 2017}
@@ -218,8 +216,56 @@
 %\href{http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-STAT.html}{Experimental Design},
 %\href{http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-STAT.html}{Stochastic Processes}\par}
 
+\vspace{0.3cm}
+
+\noindent {\Large \textit{Peer-Reviewed Publications and Invited Presentations}} \hrulefill
+
+\begin{compactDesc}
+	\item
+	Chris Salahub. \textit{Racial bias in jury selection}. \href{https://academic.oup.com/jrssig/article/20/2/16/7095719}{Significance, 20(2):16-20}. April 2023.
+	\item
+	Chris Salahub. \textit{String Manipulation in R.} Guest lecture for University of Waterloo STAT 847: Exploratory Data Analysis. Virtual. April 2021.
+	\item
+	David Castells-Graells, Christopher Salahub, and Evangelos Pournaras. \textit{On cycling risk and discomfort: urban safety mapping and bike route recommendations}. \href{https://link.springer.com/article/10.1007\%2Fs00607-019-00771-y}{Computing, 102:1259–1274}. December 2019.
+	\item
+	Christopher Salahub and R. Wayne Oldford. \textit{About ``her emails''}. \href{https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01148.x}{Significance, 15(3):34-37}. June 2018. 
+\end{compactDesc}
+
+\vspace{0.3cm}
+\noindent {\Large \textit{Open Source Software Packages}} \hrulefill
+
+\begin{compactDesc}
+	\item[\textbf{PoolBal}:] compute and control the centrality of pooled $p$-values for multiple testing \href{https://cran.r-project.org/web/packages/PoolBal/index.html}{(CRAN, Nov. 2023)}
+	\item[\textbf{AssocBin}:] recursive binary partitioning to measure association \href{https://cran.r-project.org/web/packages/AssocBin/index.html}{(CRAN, Nov. 2023)}
+\end{compactDesc}
+
+\vspace{0.3cm}
+\noindent {\Large \textit{Honours and Awards}} \hrulefill
+
+{\footnotesize
+	\begin{compactItm}
+		\item 2020: NSERC Canada Graduate Doctoral Scholarship (CGS-D) recipient (\$105,000 over 36 months, \$150,000 with matching Waterloo scholarship)
+		%\item 2020: NSERC Postgraduate Doctoral Scholarship (PGS-D) recipient
+		\item 2019: Presentation award for \textit{Seen to be Done} at the Waterloo Student Conference in Statistics, Actuarial Science, and Finance
+		\item 2019: Ontario Graduate Scholarship recipient (\$20,000 over 12 months)
+		\item 2019: Correlation One Data Science Scholarship at the University of Waterloo for Ph.D. in Statistics (\$5,000)
+		\item 2019: Math Domestic Doctoral Scholarship at the University of Waterloo for Ph.D. in Statistics (\$5,000)
+		\item 2017--2019: \href{https://www.ethz-foundation.ch/en/esop/}{Excellence Scholarship and Opportunity Programme} Scholar at ETH Z\"urich for M.Sc. in Statistics (\$48,000 over 18 months for being in the top 2-3\% of incoming master's students)
+		\item 2017: Graduated with Distinction (Dean's Honours List) -- University of Waterloo -- cumulative average of 93\%
+		\item 2016--2017: Five-time recipient of the \href{https://uwaterloo.ca/student-awards-financial-aid/awards/winston-and-diana-cherry-awards-statistics}{Cherry Statistics Award} for the highest mark in a fourth year statistics course (Statistical Methods for Process Improvements, Data Visualization, Experimental Design, Forecasting, Function Estimation) -- University of Waterloo (\$500 per award)
+		\item 2015: Contributing member of the award-winning \href{http://2015.igem.org/Team:Waterloo}{Waterloo 2015 iGEM team}, which was given the Best Overgrad Software Tool Award, the Best Overgrad Poster Award, and was nominated for the Best Foundational Advance Award
+		\item 2015: NSERC Undergraduate Student Research Award recipient (\$6,000 over 4 months, \$10,000 with matching supervisor contribution)
+		\item 2013: Canadian National AP Scholar for attaining highest possible scores of 5 on five AP examinations - Statistics, Physics, Chemistry, Calculus, and European History
+		%\item 2013: University of Waterloo President's Entrance Scholarship with Distinction
+		%\item 2013: Top Score in Alberta in the Canadian Association of Physicists High School Prize Exam
+		\item 2013: Second best speaker in Alberta at the Alberta Debate and Speech Association High School Provincials
+		%\item 2012: Sir Winston Churchill High School Churchill Debate Cup  \href{http://www.calgaryherald.com/life/Honours+handed+Winston+Churchill+Society+Calgary+dinner/8742754/story.html}{gold medal recipient}
+		%\item 2013/2011: Competed twice at the Canadian National High School Debate Championships %ranked 27th out of 96 speakers at the 2013 tournament
+\end{compactItm}}
+
+
 \vspace{0.2cm}
-\noindent {\Large \textbf{Professional Experience}} \hrulefill
+\noindent {\Large \textit{Professional Experience}} \hrulefill
 \vspace{0.2cm}
 
 \noindent {\large \textbf{Measurement Data Scientist}} \hfill Toronto, ON, Canada
@@ -230,22 +276,11 @@
 	{\footnotesize \begin{compactDesc}
 			\item[Clustering:] Pioneered a new segmentation of demographic data using multiple correspondence analysis
 			\item[Data pipelines:] Integrated SQL and R seamlessly to produce daily survey and click stream data reports
-			\item[Survival analysis:] Used Cox regression to predict panel attrition and virtually eliminate over-recruitment
+			\item[Survival analysis:] Predicted panel attrition and virtually eliminated over-recruitment using Cox regression
 	\end{compactDesc}}
 
 \vspace{0.2cm}
 
-\noindent {\large \textbf{Lecturer (Data Visualization)}} \hfill Waterloo, ON, Canada
-
-\vspace{0.1cm}
-\noindent \href{https://uwaterloo.ca/}{University of Waterloo} \hfill {Sept. 2021 -- Jan. 2022}
-\vspace{-4pt}
-{\footnotesize \begin{compactDesc} 
-		\item[Organization:] Taught 80+ students and directed a team of 4+ teaching assistants
-		\item[Data visualization:] Presented topics including dimension reduction, spatial statistics, interactive graphics, and programming in R 
-\end{compactDesc}} %\vspace{-4pt}
-
-\vspace{0.2cm}
 \noindent {\large \textbf{Data Development Intern}} \hfill Toronto, ON, Canada
 
 \vspace{0.1cm}
@@ -253,8 +288,8 @@
 \vspace{-4pt}
 	{\footnotesize \begin{compactDesc}
 			%\item[Data extraction] Extracted and processed Canadian demographic data using SQL and R
-			\item[Algorithm development:] Reduced convergence time of a demographic microsimulation by more than 90\% using a Markov Chain model
-			%\item[Communication:] Sampled representative data to provide algorithmic test cases and provided detailed algorithm descriptions in writing following the internship to facilitate a C++ implementation
+			\item[Algorithm development:] Derived a closed-form solution for the distribution of typical small area demographic microsimulation using a Markov Chain model, resulting in a reweighting scheme that reduced time to convergence by more than 80\%
+			\item[Communication:] Sampled representative data to provide algorithmic test cases and provided detailed algorithm descriptions in writing following the internship to facilitate a C++ implementation
 		\end{compactDesc}}
 	
 \vspace{0.2cm}
@@ -264,22 +299,21 @@
 \vspace{0.1cm}
 \noindent {\href{https://www.environicsanalytics.com/en-ca/about}{Environics Analytics}} \hfill May 2016 -- Aug. 2016
 	\vspace{-4pt}
-	{\footnotesize \begin{compactDesc}
+	{\footnotesize \begin{description}
 			%\item[Data science:] Extracted, cleaned, prepared, and analyzed complex Canadian demographic data using time series, high dimensional data visualization, and standard analytic approaches such as linear models
-			%\item[Model construction:] Conceived a stochastic model to solve a constrained network flow problem and implemented the algorithm in R and MATLAB
-			\item[Modelling:] Conceived a stochastic model to solve a network flow problem which improved the fit of simulated data to observed data by 50\% when implemented in R and MATLAB
-			%\item[Big data:] Wrote R scripts to extract and process social media text data and high volume call centre data
+			\item[Model construction:] Conceived and constructed a stochastic model to solve a complex constrained network flow problem and implemented the algorithm efficiently in both R and MATLAB
+			\item[Big data:] Wrote R scripts to extract and process social media text data and high volume call centre data
+	\end{description}}
+
+\vspace{0.2cm}
+\noindent {\large \textbf{Undergraduate Research Assistant}} \hfill Waterloo, ON, Canada
+\vspace{0.1cm}
+
+\noindent \href{https://uwaterloo.ca/}{University of Waterloo} (Supervised by Dr. Marius Hofert) \hfill May 2015 -- Aug. 2015
+\vspace{-4pt}
+{\footnotesize \begin{compactDesc}
+		\item[High dimensional computational statistics:] Implemented a novel approach to determining copula parameters in the nested and non-nested Archimedean cases using approximate Bayesian computation in R
 	\end{compactDesc}}
-
-%\vspace{0.2cm}
-%\noindent {\large \textbf{Undergraduate Research Assistant}} \hfill Waterloo, ON, Canada
-%\vspace{0.1cm}
-
-%\noindent \href{https://uwaterloo.ca/}{University of Waterloo} \hfill May 2015 -- Aug. 2015
-%\vspace{-4pt}
-%{\footnotesize \begin{compactDesc}
-%		\item[High dimensional statistics:] Implemented a novel approach to determining copula parameters by approximate Bayesian computation in R
-%	\end{compactDesc}}
 
 	%\ressubitem{Undergraduate Tutor}{Jan. 2015 -- Apr. 2015}
 	%{\footnotesize \begin{description}
@@ -307,79 +341,57 @@
 			\end{comment}
 
 
-\vspace{0.2cm}
-\noindent {\Large \textbf{Select Publications and Presentations}} \hrulefill
+\vspace{0.3cm}
 
-\begin{compactDesc}
-	\item 
-	Chris Salahub and Jeffrey Uhlmann. \textit{Optimal Structured Matrix Approximation for Robustness to Incomplete Biosequence Data}. Submitted to IEEE Transactions on Computational Biology and Bioinformatics March 2023 (under review)
-	\item
-	Chris Salahub. \href{https://academic.oup.com/jrssig/article/20/2/16/7095719}{\textit{Racial bias in jury selection}}. Significance, 20(2):16-20. April 2023.
-	\item
-	Christopher Salahub. \textit{A Statistician's Introduction to Genomics}. \href{https://ssc.ca/en/meetings/past}{SSC Annual Meeting}. June 2021
-	\item
-	Christopher Salahub. \textit{String Manipulation in R.} Guest lecture for University of Waterloo STAT 847: Exploratory Data Analysis. Virtual. April 2021.
-	%\item
-	%Christopher Salahub. \textit{The $\chi^2$ Controversy: An Episode in the History of Statistics.} Waterloo Statistics and Actuarial Science Research Day. February 2020.
-	\item
-	David Castells-Graells, Christopher Salahub, and Evangelos Pournaras. \href{https://link.springer.com/article/10.1007\%2Fs00607-019-00771-y}{\textit{On cycling risk and discomfort: urban safety mapping and bike route recommendations}}. Computing. December 2019
-	%\item 
-	%Christopher Salahub. \textit{Seen to Be Done: A Graphical Analysis of Peremptory Challenge}. Waterloo Student Conference in Statistics, Actuarial Science, and Finance. October 2019. (Presentation Award)
-	%\item
-	%Christopher Salahub. \textit{About ``her emails'': The Interactive Filter and Display of Hillary Clinton's Emails}, \href{https://ssc.ca/en/meetings/past}{SSC Annual Meeting}. May 2019.
-	\item
-	Chris Salahub. \href{https://medium.com/datadriveninvestor/another-ai-prediction-piece-45f36e6398a}{\textit{Another AI Prediction Piece}}. DataDrivenInvestor. October 2018.
-	\item
-	Christopher Salahub and R. Wayne Oldford. \href{https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01148.x}{\textit{About ``her emails''}}. Significance, 15(3):34-37. June 2018. 
-\end{compactDesc}
-
-\vspace{0cm}
-\noindent {\Large \textbf{Honours and Awards}} \hrulefill
-
-{\footnotesize
-	\begin{compactItm}
-		\item 2020: NSERC Canada Alexander Graham Bell Graduate Doctoral Scholarship (CGS-D) recipient
-		%\item 2020: NSERC Postgraduate Doctoral Scholarship (PGS-D) recipient
-		\item 2019: Presentation award for \textit{Seen to be Done} at the Waterloo Student Conference in Statistics, Actuarial Science, and Finance
-		\item 2019: Ontario Graduate Scholarship recipient
-		\item 2019: Correlation One Data Science Scholarship at the University of Waterloo for Ph.D. in Statistics
-		%\item 2019: Math Domestic Doctoral Scholarship at the University of Waterloo for Ph.D. in Statistics
-		\item 2017--2019: \href{https://www.ethz-foundation.ch/en/esop/}{Excellence Scholarship and Opportunity Programme} Scholar at ETH Z\"urich for M.Sc. in Statistics
-		\item 2017: Graduated with Distinction (Dean's Honours List) -- University of Waterloo -- cumulative average of 93\%
-		\item 2016--2017: Five-time recipient of the \href{https://uwaterloo.ca/student-awards-financial-aid/awards/winston-and-diana-cherry-awards-statistics}{Cherry Statistics Award} (received in Statistical Methods for Process Improvements, Data Visualization, Experimental Design, Forecasting, Function Estimation) -- University of Waterloo
-		\item 2015: Contributing member of the award-winning \href{http://2015.igem.org/Team:Waterloo}{Waterloo 2015 iGEM team}, which was given the Best Overgrad Software Tool Award, the Best Overgrad Poster Award, and was nominated for the Best Foundational Advance Award
-		\item 2015: NSERC Undergraduate Student Research Award recipient
-		\item 2013: Canadian National AP Scholar for attaining highest possible scores of 5 on five AP examinations - Statistics, Physics, Chemistry, Calculus, and European History
-		%\item 2013: University of Waterloo President's Entrance Scholarship with Distinction
-		%\item 2013: Top Score in Alberta in the Canadian Association of Physicists High School Prize Exam
-		%\item 2013: Ranked second best speaker in Alberta at the ADSA Debate Provincials
-		%\item 2012: Sir Winston Churchill High School Churchill Debate Cup  \href{http://www.calgaryherald.com/life/Honours+handed+Winston+Churchill+Society+Calgary+dinner/8742754/story.html}{gold medal recipient}
-		%\item 2013/2011: Competed nationally at the Canadian High School Debate Championships, ranked 27th out of 96 speakers at the 2013 tournament
-\end{compactItm}}
+\noindent {\Large \textit{Teaching Experience}} \hrulefill
 
 \vspace{0.1cm}
-\noindent {\Large \textbf{Projects}} \hrulefill
-\vspace{-0.1cm}
 
-\begin{compactDesc}
-	\item[\href{https://medium.com/@cdsalahub/mapping-my-dads-peaks-b36b756443f2}{My Dad's Peaks}] (Waterloo, 2021) {\footnotesize Extracted data from HTML web pages using web scraping and regular expressions and matched it to a reference set to create a custom map visualization of mountains around the world}
-	\item[\href{https://www.zora.uzh.ch/id/eprint/161560/1/Nonarticular_Base_and_Shaft_Fractures_of.98596.pdf}{Predicting Fracture Displacement}] (Z\"urich, 2018) {\footnotesize Applied data visualization and classification methods to six years of data from Kinderspital Z\"urich to safely reduce follow-up X-rays of healing finger fractures by 90\%}
-	%\item[Evaluating Cyclist Risk in Z\"urich] (Z\"urich, 2018) {\footnotesize Extracted bicycle incident data and traffic volumes from public APIs using Python, processed this data using kernel density estimation to estimate risk using R, and implemented an interactive Python application to recommend routes based on this risk}
-	%\item[\href{https://shiny.math.uwaterloo.ca/sas/clinton/}{Interactive Filter and Display of Email Data}] (Waterloo, 2016 -- 2017) {\footnotesize Designed and implemented an interactive web-based application which allows a user to filter and display email data from Hillary Clinton's 32,795 officially released emails using the web-scraping, text mining, and Rshiny functionality of R}
-	\item[\href{http://2015.igem.org/Team:Waterloo}{CRISPier}] (Waterloo, 2015) {\footnotesize Modelled the CRISPR-Cas9 system using stochastic and differential equation models for the award-winning 2015 Waterloo iGEM team in both R and Python; developed statistical tests to monitor and compare results}
-\end{compactDesc}
+\noindent {\large \textbf{Lecturer (Data Visualization)}} \hfill Waterloo, ON, Canada
+
+\vspace{0.1cm}
+\noindent \href{https://uwaterloo.ca/}{University of Waterloo} \hfill {Sept. 2021 -- Jan. 2022}
+\vspace{-4pt}
+{\footnotesize \begin{compactDesc} 
+		\item[Organization:] Taught 80+ students and directed a team of 4+ teaching assistants
+		\item[Data visualization:] Presented topics including dimension reduction, spatial statistics, interactive graphics, data reduction, and programming in R for visualization
+		%\item[Leadership:] Directed a team of four teaching assistants
+\end{compactDesc}} %\vspace{-4pt}
 
 \vspace{0.2cm}
-\noindent {\Large \textbf{Administrative and Volunteer Experience}} \hrulefill
+
+\noindent {\large \textbf{Graduate Teaching Assistant}} \hfill Waterloo, ON, Canada
+
+\vspace{0.1cm}
+\noindent \href{https://uwaterloo.ca/}{University of Waterloo} \hfill {May 2019 -- Jan. 2023}
+\vspace{-4pt}
+{\footnotesize \begin{compactDesc} 
+		\item[Teamwork:] Worked collaboratively with many other teaching assistants across dozens of graduate statistics classes
+		\item[Leadership:] Served as head teaching assistant several times and managed other teaching assistants
+\end{compactDesc}} %\vspace{-4pt}
+
 \vspace{0.2cm}
 
-\noindent {\large \textbf{SAS Student Seminar Co-Chair}} \hfill Waterloo, ON, Canada
+\noindent {\large \textbf{Graduate Teaching Assistant}} \hfill Z\"urich, Switzerland
+
+\vspace{0.1cm}
+\noindent \href{https://ethz.ch/en.html}{ETH Z\"urich} \hfill {Sept. 2018 -- Jan. 2019}
+\vspace{-4pt}
+{\footnotesize \begin{compactDesc} 
+		\item[Experimental design:] Aided in instruction of a graduate experimental design course
+\end{compactDesc}} %\vspace{-4pt}
+
+\vspace{0.3cm}
+\noindent {\Large \textit{Administrative and Volunteer Experience}} \hrulefill
+\vspace{0.2cm}
+
+\noindent {\large \textbf{SAS Student Seminar Co-chair}} \hfill Waterloo, ON, Canada
 \vspace{0.1cm}
 	
-\noindent \href{https://uwaterloo.ca/statistics-and-actuarial-science/student-seminar-series}{Department of Statistics and Actuarial Science} \hfill {Sept. 2021 -- Dec. 2021}
+\noindent \href{https://uwaterloo.ca/statistics-and-actuarial-science/student-seminar-series}{Department of Statistics and Actuarial Science} \hfill {Sept. 2021 -- Dec. 2022}
 	\vspace{-4pt}
 	{\footnotesize \begin{compactDesc}
-			\item[Organization] Coordinated and hosted weekly virtual seminars by students and professors for 4 semesters
+			\item[Organization:] Coordinated and hosted weekly virtual seminars given by students and professors
 		\end{compactDesc}}
 	
 \vspace{0.2cm}
@@ -389,8 +401,8 @@
 \noindent \href{https://uwaterloo.ca/statistics-and-actuarial-science/}{Department of Statistics and Actuarial Science} \hfill Sept. 2020 -- Sept. 2021
 	\vspace{-4pt}
 	{\footnotesize \begin{compactDesc}
-			\item[Communication] Disseminated key information from department meetings to student constituents
-			\item[Advocacy] Represented the interests of statistics and actuarial science graduate students in departmental discussions
+			\item[Communication:] Disseminated key information from department meetings to student constituents
+			\item[Advocacy:] Represented the interests of statistics and actuarial science graduate students in departmental discussions
 		\end{compactDesc}}
 \vspace{0.2cm}
 
@@ -399,7 +411,7 @@
 \vspace{0.1cm}
 \noindent \href{https://uwaterloo.ca/graduate-student-association/}{University of Waterloo Graduate Student Association} \hfill Jan. 2020 -- Mar. 2021
 	{\footnotesize \begin{compactDesc}
-			\item[Interviewing:] Member of the Council Executive Committee responsible for vetting new executive applications
+			\item[Interviewing:] Vetted executive applications as a member of the Council Executive Committee
 			\item[Survey design and analysis:] Main analyst of GSA Vital Signs 2020 and designer of GSA COVID-19 Survey
 			\item[Communication:] Updated consitutents on GSA meetings, surveyed for feedback, and organized events with regular emails
 		\end{compactDesc}}
@@ -430,6 +442,43 @@
 	%	{\footnotesize \begin{description}
 	%		\item[Customer Service] Explained the scientific concepts behind a variety of exhibits to visitors to TELUS Spark; adapted interactions to suit customers of all ages and knowledge levels to provide a captivating experience
 	%	\end{description}}
+
+\vspace{0.3cm}
+
+\noindent {\Large \textit{Noteworthy Projects}} \hrulefill
+\vspace{-0.1cm}
+
+\begin{compactDesc}\item[\href{https://medium.com/@cdsalahub/mapping-my-dads-peaks-b36b756443f2}{My Dad's Peaks}] (Waterloo, 2021) {\footnotesize Extracted data from HTML pages using web scraping and regular expressions and matched it to a reference set to create a custom map visualization of peaks climbed by my father}
+	\item[\href{https://www.zora.uzh.ch/id/eprint/161560/1/Nonarticular_Base_and_Shaft_Fractures_of.98596.pdf}{Predicting Fracture Displacement}] (Z\"urich, 2018) {\footnotesize Applied data visualization and classification methods in R to six years of retrospective data from Kinderspital Z\"urich to determine the relative risk of secondary displacement of phalangeal fractures and update clinical guidelines}
+	%\item[Evaluating Cyclist Risk in Z\"urich] (Z\"urich, 2018) {\footnotesize Extracted bicycle incident data and traffic volumes from public APIs using Python, processed this data using kernel density estimation to estimate risk using R, and implemented an interactive Python application to recommend routes based on this risk}
+	%\item[\href{https://shiny.math.uwaterloo.ca/sas/clinton/}{Interactive Filter and Display of Email Data}] (Waterloo, 2016 -- 2017) {\footnotesize Designed and implemented an interactive web-based application which allows a user to filter and display email data from Hillary Clinton's 32,795 officially released emails using the web-scraping, text mining, and Rshiny functionality of R}
+	\item[\href{http://2015.igem.org/Team:Waterloo}{CRISPier}] (Waterloo, 2015) {\footnotesize Modelled the CRISPR-Cas9 system using stochastic and differential equation models for the award-winning 2015 Waterloo iGEM team in both R and Python; developed a number of statistical tests to monitor and compare results}
+\end{compactDesc}
+
+\vspace{0.3cm}
+
+\noindent {\Large \textit{Other Publications and Presentations}} \hrulefill
+
+\begin{compactDesc}
+	\item 
+	Chris Salahub and Jeffrey Uhlmann. \textit{Optimal Structured Matrix Approximation for Robustness to Incomplete Biosequence Data}. Submitted to IEEE Transactions on Computational Biology and Bioinformatics March 2023 (under review)
+	\item
+	Chris Salahub. \href{https://uwswagclub.github.io/workshop-bookdown/pooled-p-values.html}{\textit{Pooled p-values}}. UW Statistical Workshop and Applications Group. March 2023.
+	\item
+	Christopher Salahub. \textit{A Statistician's Introduction to Genomics}. \href{https://ssc.ca/en/meetings/past}{SSC Annual Meeting}. Virtual. June 2021
+	\item
+	Chris Salahub. \textit{The $\chi^2$ Controversy: An Episode in the History of Statistics.} Waterloo Statistics and Actuarial Science Research Day. February 2020.
+	\item 
+	Chris Salahub. \textit{Seen to Be Done: A Graphical Analysis of Peremptory Challenge}. Waterloo Student Conference in Statistics, Actuarial Science, and Finance. October 2019. (Presentation Award)
+	\item
+	Christopher Salahub. \textit{About ``her emails'': The Interactive Filter and Display of Hillary Clinton's Emails}, \href{https://ssc.ca/en/meetings/past}{SSC Annual Meeting}. May 2019.
+	\item
+	Chris Salahub. \href{https://medium.com/datadriveninvestor/another-ai-prediction-piece-45f36e6398a}{\textit{Another AI Prediction Piece}}. DataDrivenInvestor. October 2018.
+\end{compactDesc}
+
+\begin{center}	
+	{\large \textit{References available upon request.}}
+\end{center}
 
 
 \end{document}
